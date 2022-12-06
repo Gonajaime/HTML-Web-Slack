@@ -3,7 +3,35 @@
   padding: 0%;
 }
 
+.firstpage {
+  width: auto;
+}
+
 .navbar {
   display: block;
   background-color: red;
+}
+
+.secondpage {
+  width: auto;
+}
+
+.secondpage p {
+  background-color: #F4EDE4;
+}
+
+.thirdpage {
+  width: auto;
+}
+
+.fourthpage {
+  width: auto;
+}
+
+.fifth {
+  width: auto;
+}
+
+.sixth {
+  width: auto;
 }/*# sourceMappingURL=style.css.map */
