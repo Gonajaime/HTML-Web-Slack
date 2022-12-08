@@ -1,72 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.scss" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <div class="headernav"></div>
-            <img src="data:image/png;base64,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"/>
+      <nav class="navbar">
+        <img class="navimg" src="images\navbarlogo.png" />
+      </nav>
     </header>
     <main>
       <div class="firstpage">
-        <h1>Un buen trabajo en equipo comienza con una sede digital</h1>
-        <p>Reunir a todos tus compañeros, herramientas y comunicaciónen un mismo lugar te permitirá trabajar de manera más rápida y eficiente que nunca.</p>
-        <button class="registromail">registrarse con correo</button>
-        <button class="registrogoogle">registarse con google</button>
-        <img src="images\chat.png" />
+        <section class="page1text">
+          <h1>
+            Un buen trabajo en equipo comienza con una
+            <p class="page1-ph1">sede digital</p>
+          </h1>
+          <p>
+            Reunir a todos tus compañeros, herramientas y comunicación en un
+            mismo lugar te permitirá trabajar de manera más rápida y eficiente
+            que nunca.
+          </p>
+          <button class="registromail">registrarse con correo</button>
+          <button class="registrogoogle">registarse con google</button>
+          <img src="images\chat.png" />
+        </section>
       </div>
       <div class="secondpage">
-        <p>Empresas de todo el mundo ya confían en slack</p>
-        <img src="images/empresas.png" />
-        <img src="images/equipo.png" />
-        <h2>Reúne a tu equipo</h2>
-        <p>
-          Los canales son el corazón de Slack. Son espacios organizados para
-          todo el mundo que contienen todo lo necesario para trabajar. Los
-          canales permiten conectarse entre departamentos, oficinas, zonas
-          horarias e incluso con otras empresas.
-        </p>
-        <a href="">Obtener más información sobre los canales</a>
-        <img src="images/chatequipo.png" />
-        <h2>Selecciona cómo quieres trabajar</h2>
-        <p>
-          Slack te otorga la flexibilidad para trabajar cuando, donde y como tú
-          quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una
-          junta para discutir asuntos en directo.
-        </p>
-        <a href="">Obtén más información acerca de la comunicación flexible</a>
-        <img src="images/chatficciones.png" />
-        <h2>Agiliza el trabajo con todas tus herramientas en un mismo lugar</h2>
-        <p>
-          Conectar tus otras aplicaciones de trabajo con Slack te permite
-          ahorrar tiempo al no tener que cambiar entre pestañas. Además, con
-          herramientas eficaces como el Creador de flujos de trabajo, puedes
-          automatizar tareas rutinarias.
-        </p>
-        <a href="">Más información sobre la plataforma de Slack</a>
+        <section class="page2section">
+          <p>Empresas de todo el mundo ya confían en slack</p>
+          <img src="images/empresas.png" />
+          <div class="page2img1">
+          <img src="images/equipo.png" />
+          <h2>Reúne a tu equipo</h2>
+          <p>
+            Los canales son el corazón de Slack. Son espacios organizados para
+            todo el mundo que contienen todo lo necesario para trabajar. Los
+            canales permiten conectarse entre departamentos, oficinas, zonas
+            horarias e incluso con otras empresas.
+          </p>
+          <a href="">Obtener más información sobre los canales</a>
+        </div>
+          <div class="page2img2">
+            <img src="images/chatequipo.png"/>
+            <h2>Selecciona cómo quieres trabajar</h2>
+            <p>
+              Slack te otorga la flexibilidad para trabajar cuando, donde y como
+              tú quieras. Puedes chatear, enviar clips de audio y vídeo o unirte
+              a una junta para discutir asuntos en directo.
+            </p>
+            <a href="">Obtén más información acerca de la comunicación flexible</a>            >
+          </div>
+          <div class="page2img3">
+          <img src="images/chatficciones.png"/>
+          <h2>
+            Agiliza el trabajo con todas tus herramientas en un mismo lugar
+          </h2>
+          <p>
+            Conectar tus otras aplicaciones de trabajo con Slack te permite
+            ahorrar tiempo al no tener que cambiar entre pestañas. Además, con
+            herramientas eficaces como el Creador de flujos de trabajo, puedes
+            automatizar tareas rutinarias.
+          </p>
+          <a href="">Más información sobre la plataforma de Slack</a>
+        </div>
+        </section>
       </div>
       <div class="thirdpage">
-        <section class="section3">
-          <h2>Equipos grandes y pequeños confían en Slack</h2>
+          <section class="page3">
+          <h3>Equipos grandes y pequeños confían en Slack</h3>
           <p>
             Slack se adapta de forma segura para garantizar la colaboración en
             las empresas más importantes del mundo.
           </p>
           <button class="sectionbutton">conoce slack para empresas</button>
           <button class="sectionbutton">hablar con el equipo de ventas</button>
-        </section>
-        <section class="section3porcentajes">
+        </div>
           <h2>85%</h2>
           <p>de usuarios afirma que Slack ha mejorado la comunicación*</p>
           <h2>86%</h2>
           <p>creen que su capacidad para trabajar a distancia ha mejorado*</p>
           <h2>88%</h2>
           <p>se sienten mas conectados con sus equipos*</p>
-        </section>
         <div class="pag3video">
           <iframe
             width="560"
@@ -171,8 +188,11 @@
         <a href=""></a>
       </div>
       <div class="page6icons"></div>
-      <p>2022 Slack Technologies, LLC, una empresa de Salesforce. 
-        Todos los derechos reservados. Las ditintas marcas comerciales pertenecen a sus respectivos propietarios.</p>
+      <p>
+        2022 Slack Technologies, LLC, una empresa de Salesforce. Todos los
+        derechos reservados. Las ditintas marcas comerciales pertenecen a sus
+        respectivos propietarios.
+      </p>
     </footer>
   </body>
 </html>

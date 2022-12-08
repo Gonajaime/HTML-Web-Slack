@@ -1,29 +1,177 @@
-*{
-    margin: auto;
-    padding: 0%;
+* {
+  margin: auto;
+  padding: 0%;
 }
-.firstpage{
-    width: auto;
+header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 .navbar {
-    display: block;
-   background-color: red;
-} 
-.secondpage{
-    width: auto;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
-.secondpage p{
-    background-color: #F4EDE4;
+
+.navimg {
+  height: 80px;
+  width: 100%;
+  object-fit: cover;
 }
-.thirdpage{
-    width: auto;
+
+.firstpage {
+  width: auto;
+  padding-top: 6rem;
+  text-align: center;
+  background-color: #541554;
+  button {
+    width: 100%;
+    height: 3rem;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+      Tahoma, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.2857;
+    letter-spacing: 0.8px;
+  }
+  .registromail {
+    color: #541554;
+  }
+  p {
+    font-size: 1.3rem;
+    color: white;
+    margin: 0% 6%;
+    padding-bottom: 4%;
+  }
 }
-.fourthpage{
-    width: auto;
+.firstpage h1 {
+  font-size: 3.1rem;
+  color: white;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma,
+    Arial, sans-serif;
+  p {
+    color: goldenrod;
+    font-size: 3.6rem;
+  }
 }
-.fifth{
-    width: auto;
+.secondpage {
+  width: auto;
+  .page2img1 {
+    p {
+      background-color: #f4ede4;
+      font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+        Tahoma, Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1.4444;
+      letter-spacing: normal;
+      font-size: calc(1.125rem + (0 * (100vw - 400px) / 624));
+    }
+    a {
+      color: #1264a3;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    h2 {
+      font-size: 2rem;
+      font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI",
+        Tahoma, Arial, sans-serif;
+      font-weight: 700;
+      line-height: 1.1875;
+      letter-spacing: -0.3px;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .page2img2 {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    p {
+      background-color: #f4ede4;
+      font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+        Tahoma, Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1.4444;
+      letter-spacing: normal;
+      font-size: calc(1.125rem + (0 * (100vw - 400px) / 624));
+    }
+    a {
+      color: #1264a3;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    h2 {
+      font-size: 2rem;
+      font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI",
+        Tahoma, Arial, sans-serif;
+      font-weight: 700;
+      line-height: 1.1875;
+      letter-spacing: -0.3px;
+      margin-bottom: 1rem;
+      text-align: end;
+    }
+  }
+  .page2img3 {
+    p {
+      background-color: #f4ede4;
+      font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+        Tahoma, Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1.4444;
+      letter-spacing: normal;
+      font-size: calc(1.125rem + (0 * (100vw - 400px) / 624));
+    }
+    a {
+      color: #1264a3;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    h2 {
+      font-size: 2rem;
+      font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI",
+        Tahoma, Arial, sans-serif;
+      font-weight: 700;
+      line-height: 1.1875;
+      letter-spacing: -0.3px;
+      margin-bottom: 1rem;
+    }
+  }
+  .page2section {
+    background-color: #f4ede4;
+  }
 }
-.sixth{
-    width: auto;
+
+.thirdpage {
+  width: auto;
+  .pag3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.1875;
+    letter-spacing: -.3px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    }
+    p{
+        font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+        font-weight: 400;
+        line-height: 1.4444;
+        letter-spacing: normal;
+    }
+  }
+}
+.fourthpage {
+  width: auto;
+}
+.fifth {
+  width: auto;
+}
+.sixth {
+  width: auto;
 }
