@@ -157,6 +157,22 @@ header {
 .thirdpage {
   width: auto;
 }
+.thirdpage .page3porcents {
+  text-align: center;
+}
+.thirdpage .page3porcents h4 {
+  color: #541554;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 3.8rem;
+}
+.thirdpage .page3porcents p {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.4286;
+  letter-spacing: normal;
+  padding: 0 33% 5%;
+}
 .thirdpage .page3 {
   display: flex;
   flex-direction: column;
@@ -211,34 +227,17 @@ header {
   line-height: 1.2857;
   letter-spacing: 0.8px;
   border-radius: 5px;
-  border: none;
 }
-.thirdpage .page3 .page3porcents {
-  padding-top: 4rem;
-}
-.thirdpage .page3 .page3porcents p {
-  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
-  line-height: 1.4286;
-  letter-spacing: normal;
-  padding: 0 25% 5%;
-}
-.thirdpage .page3 .page3porcents h3 {
-  color: #541554;
-  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
-  line-height: 1.4444;
-  letter-spacing: normal;
-  font-size: 3.8rem;
-}
-.thirdpage .page3 .pag3video {
+.thirdpage .pag3video {
   text-align: start;
 }
-.thirdpage .page3 .pag3video .videobox {
+.thirdpage .pag3video .videobox {
   border-top-right-radius: 5px;
 }
-.thirdpage .page3 .pag3video h3 {
+.thirdpage .pag3video h3 {
   font-style: italic;
 }
-.thirdpage .page3 .page3footer {
+.thirdpage .page3footer {
   margin-top: 3rem;
 }
 
@@ -331,9 +330,24 @@ header {
 }
 .fifthpage .page5section {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: repeat(3, 1fr);
+}
+.fifthpage .page5section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.fifthpage .page5section li {
+  display: flex;
+  align-items: flex-start;
+  margin: 8% 0% 6% 0%;
 }
 
-.sixth {
+.sixthpage {
   width: auto;
+}
+.sixthpage li {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
