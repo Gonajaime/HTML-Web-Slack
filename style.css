@@ -62,6 +62,10 @@ header {
 
 .secondpage {
   width: auto;
+  background-color: #f4ede4;
+}
+.secondpage .page2img1 {
+  text-align: left;
 }
 .secondpage .page2img1 p {
   background-color: #f4ede4;
@@ -70,6 +74,7 @@ header {
   line-height: 1.4444;
   letter-spacing: normal;
   font-size: calc(1.125rem + 0 * (100vw - 400px) / 624);
+  text-align: left;
 }
 .secondpage .page2img1 a {
   color: #1264a3;
@@ -85,9 +90,7 @@ header {
   margin-bottom: 1rem;
 }
 .secondpage .page2img2 {
-  display: flex;
-  flex-direction: column;
-  text-align: end;
+  text-align: right;
 }
 .secondpage .page2img2 p {
   background-color: #f4ede4;
@@ -96,6 +99,8 @@ header {
   line-height: 1.4444;
   letter-spacing: normal;
   font-size: calc(1.125rem + 0 * (100vw - 400px) / 624);
+  margin-left: 13rem;
+  text-align: right;
 }
 .secondpage .page2img2 a {
   color: #1264a3;
@@ -110,6 +115,9 @@ header {
   letter-spacing: -0.3px;
   margin-bottom: 1rem;
   text-align: end;
+}
+.secondpage .page2img3 {
+  text-align: start;
 }
 .secondpage .page2img3 p {
   background-color: #f4ede4;
@@ -134,37 +142,196 @@ header {
 }
 .secondpage .page2section {
   background-color: #f4ede4;
+  padding: 8% 0%;
+}
+.secondpage .page2section p {
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .thirdpage {
   width: auto;
 }
-.thirdpage .pag3 {
+.thirdpage .page3 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 14% 6%;
 }
-.thirdpage .pag3 h3 {
+.thirdpage .page3 a {
+  color: #1264a3;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.thirdpage .page3 h3 {
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.1875;
   letter-spacing: -0.3px;
-  margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
-.thirdpage .pag3 p {
+.thirdpage .page3 h4 {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  margin-top: 2rem;
+}
+.thirdpage .page3 p {
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.4444;
   letter-spacing: normal;
+  margin: 0% 5% 0% 0%;
+}
+.thirdpage .page3 .sectionbutton1 {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2%;
+  text-transform: uppercase;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  background-color: #541554;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.thirdpage .page3 .sectionbutton2 {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2%;
+  text-transform: uppercase;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  border-radius: 5px;
+  border: none;
+}
+.thirdpage .page3 .page3porcents {
+  padding-top: 4rem;
+}
+.thirdpage .page3 .page3porcents p {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.4286;
+  letter-spacing: normal;
+  padding: 0 25% 5%;
+}
+.thirdpage .page3 .page3porcents h3 {
+  color: #541554;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 3.8rem;
+}
+.thirdpage .page3 .pag3video {
+  text-align: start;
+}
+.thirdpage .page3 .pag3video .videobox {
+  border-top-right-radius: 5px;
+}
+.thirdpage .page3 .pag3video h3 {
+  font-style: italic;
+}
+.thirdpage .page3 .page3footer {
+  margin-top: 3rem;
 }
 
 .fourthpage {
   width: auto;
+  background-color: #f1eae1;
+}
+.fourthpage h4 {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: normal;
+  font-size: calc(1.4rem + 1.6 * (100vw - 400px) / 624);
+  margin: 6%;
+}
+.fourthpage a {
+  color: #1264a3;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.fourthpage .page4 {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+}
+.fourthpage .page4 p {
+  letter-spacing: 0.1px;
+  color: #454245;
+}
+.fourthpage .page4 h2 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 8% 4% 3%;
+}
+.fourthpage .page4 .page4box {
+  background-color: white;
+  width: 42%;
 }
 
-.fifth {
+.fifthpage {
   width: auto;
+}
+.fifthpage .page5box {
+  background-color: #541554;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0% 0% 50% 50%;
+  height: 62vw;
+}
+.fifthpage .page5box h1 {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.158;
+  letter-spacing: -0.8px;
+  margin: 7%;
+  font-size: 2.05rem;
+  text-align: center;
+}
+.fifthpage .pg5button1 {
+  width: 93%;
+  margin: 0% 0% 0% 4%;
+  height: 3rem;
+  text-transform: uppercase;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  background-color: white;
+  color: #541554;
+  border-radius: 5px;
+  border: none;
+}
+.fifthpage .pg5button2 {
+  width: 93%;
+  margin: 2% 0% 0% 4%;
+  height: 3rem;
+  margin: 3%;
+  text-transform: uppercase;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  background-color: #541554;
+  color: white;
+  border-radius: 5px;
+}
+.fifthpage .page5section {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .sixth {
