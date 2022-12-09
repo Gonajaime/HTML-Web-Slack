@@ -76,6 +76,7 @@ header {
       color: #1264a3;
       cursor: pointer;
       text-decoration: none;
+      font-size: 1.2rem;
     }
     h2 {
       font-size: 2rem;
@@ -105,6 +106,7 @@ header {
       color: #1264a3;
       cursor: pointer;
       text-decoration: none;
+      font-size: 1.2rem;
     }
     h2 {
       font-size: 2rem;
@@ -132,6 +134,7 @@ header {
       color: #1264a3;
       cursor: pointer;
       text-decoration: none;
+      font-size: 1.2rem;
     }
     h2 {
       font-size: 2rem;
@@ -237,22 +240,20 @@ header {
       letter-spacing: 0.8px;
       border-radius: 5px;
     }
-          
-    }
-    .pag3video {
-      text-align: start;
-      .videobox {
-        border-top-right-radius: 5px;
-      }
-      h3 {
-        font-style: italic;
-      }
-    }
-    .page3footer {
-      margin-top: 3rem;
-    }
-
   }
+  .pag3video {
+    text-align: start;
+    .videobox {
+      border-top-right-radius: 5px;
+    }
+    h3 {
+      font-style: italic;
+    }
+  }
+  .page3footer {
+    margin-top: 3rem;
+  }
+}
 
 .fourthpage {
   width: auto;
